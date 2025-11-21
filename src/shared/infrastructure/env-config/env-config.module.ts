@@ -14,7 +14,7 @@ export class EnvConfigModule {
                     envFilePath: [
                         join(
                             __dirname,
-                            `../../../../.env.${process.env.NODE_ENV}`,
+                            `../../../.env.${process.env.NODE_ENV}`,
                         ),
                     ],
                     ...options,
